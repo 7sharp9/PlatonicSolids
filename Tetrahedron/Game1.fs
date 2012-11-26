@@ -52,20 +52,20 @@ open Microsoft.Xna.Framework.Media
             let uv6 = Vector2.One
 
             [| VertexPositionTexture(v1, uv1)
-               VertexPositionTexture(v2, uv2)
-               VertexPositionTexture(v3, uv3)  
+               VertexPositionTexture(v3, uv2)
+               VertexPositionTexture(v2, uv3)  
                
                VertexPositionTexture(v1, uv2)
-               VertexPositionTexture(v3, uv6)
-               VertexPositionTexture(v4, uv4)
+               VertexPositionTexture(v4, uv6)
+               VertexPositionTexture(v3, uv4)
 
                VertexPositionTexture(v1, uv3)
-               VertexPositionTexture(v4, uv4)
-               VertexPositionTexture(v2, uv5)
+               VertexPositionTexture(v2, uv4)
+               VertexPositionTexture(v4, uv5)
 
                VertexPositionTexture(v2, uv3)
-               VertexPositionTexture(v4, uv2)
-               VertexPositionTexture(v3, uv4) |]  
+               VertexPositionTexture(v3, uv2)
+               VertexPositionTexture(v4, uv4) |]  
                                    
         override x.Initialize() = base.Initialize()
         
